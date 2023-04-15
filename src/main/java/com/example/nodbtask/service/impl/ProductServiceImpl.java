@@ -20,7 +20,7 @@ public class ProductServiceImpl implements ProductService {
         productMap.put(2L, product2);
     }
 
-    public List<Product> getAllProduct() {
+    public static List<Product> getAllProduct() {
         return new ArrayList<>(productMap.values());
     }
 
